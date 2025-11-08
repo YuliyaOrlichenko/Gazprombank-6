@@ -1,0 +1,94 @@
+.btn {
+    background-color: #476BF0;
+    color: #FFFFFF;
+    border-radius: 60px;
+    padding: 14px 0;
+    width: 386px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    margin: 0 0 24px 0;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #3356D7;
+    color: #FFFFFF;
+}
+
+.btn:focus-visible {
+    background-color: #2143C1;
+    color: #FFFFFF;
+}
+
+.btn:disabled {
+    background-color: #DBDFEB;
+    color: #777C9B;
+}
+
+.btn--continue {
+    border: none;
+    width: 386px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 14px 0;
+    background-color: #DBDFEB;
+    color: #777C9B;
+}
+
+
+.btn--back {
+    position: absolute;
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #1E222E;
+    position: absolute;
+    top: 22px;
+    left: -24px;
+    padding: 14px;
+}
+
+.btn--back:hover {
+    color: #476BF0;
+}
+
+.btn--back:focus-visible {
+    color: #476BF0;
+}
+
+.btn--back:disabled {
+    background-color: #DBDFEB;
+    color: #777C9B;
+    cursor: default;
+}
+
+.btn--topic {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: #767A85;
+    border: none;
+    background-color: transparent;
+    width: 133px;
+    height: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.btn__color-topic {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.btn__icon-topic {
+    background-color: transparent;
+    border: none;
+    color: #767A85;
+}

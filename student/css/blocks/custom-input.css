@@ -1,0 +1,123 @@
+.custom-input {
+    width: 386px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    grid-column: span 2;
+}
+
+.custom-input--error .custom-input__field {
+    border-color: #F9C4C2;
+}
+
+.custom-input--error .custom-input__field~.custom-input__icon-login {
+    color: #F9C4C2;
+}
+
+.custom-input--error~.custom-input__icon-password {
+    color: #F9C4C2;
+}
+
+.custom-input--error .custom-input__error {
+    display: block;
+}
+
+.custom-input__field {
+    border: 1px solid #CDCFDE;
+    border-radius: 8px;
+    height: 44px;
+    padding: 14px 40px 14px 16px;
+    font-family: inherit;
+    color: #1E222E;
+}
+
+
+.custom-input__field:hover {
+    border-color: #3356D7;
+}
+
+.custom-input__field:hover~.custom-input__icon-login {
+    color: #3356D7;
+}
+
+.custom-input__field:hover~.custom-input__icon-password {
+    color: #3356D7;
+}
+
+.custom-input__field:focus-visible {
+    border-color: #3356D7;
+    outline: none;
+}
+
+.custom-input__field:focus-visible~.custom-input__icon-login {
+    color: #3356D7;
+}
+
+.custom-input__field:focus-visible~.custom-input__icon-password {
+    color: #3356D7;
+}
+
+.custom-input__label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8F939F;
+    position: absolute;
+    left: 16px;
+    top: -8px;
+    background-color: #FFFFFF;
+    padding: 0 3px 0 4px;
+}
+
+.custom-input__icon-login {
+    color: #8F939F;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.custom-input__icon-password {
+    color: #8F939F;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+
+    cursor: pointer;
+}
+
+.custom-input--small {
+    width: 188px;
+    margin: 0;
+    grid-column: span 1;
+}
+
+.custom-input__field::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #8F939F;
+    padding: 14px 16px;
+}
+
+.custom-input--small--code {
+    position: relative;
+}
+
+.custom-input--small--code .custom-input__icon-code {
+    margin: 0 auto;
+    position: absolute;
+    left: 32px;
+    top: 0;
+    bottom: 0;
+}
+
+.custom-input__error {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #F6514B;
+    margin-top: 8px;
+    display: none;
+}
